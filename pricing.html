@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pricing - Junk Away We Go</title>
+<meta name="description" content="Transparent junk removal pricing from Junk Away We Go. Choose from small, medium, or large load sizes. Book a free estimate for your Poway or San Diego project."/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Work+Sans:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-container-highest": "#e4e2e2",
+                    "secondary-container": "#33bffd",
+                    "on-surface": "#1b1c1c",
+                    "inverse-surface": "#303031",
+                    "secondary-fixed": "#c4e7ff",
+                    "on-background": "#1b1c1c",
+                    "tertiary-fixed": "#bbf45c",
+                    "surface-dim": "#dbdad9",
+                    "on-primary-container": "#004566",
+                    "tertiary-container": "#87bc28",
+                    "error": "#ba1a1a",
+                    "surface-tint": "#006493",
+                    "on-primary": "#ffffff",
+                    "primary-fixed-dim": "#8ccdff",
+                    "on-tertiary-container": "#2f4700",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary": "#00658b",
+                    "secondary-fixed-dim": "#7dd0ff",
+                    "tertiary-fixed-dim": "#a0d743",
+                    "on-error-container": "#93000a",
+                    "outline-variant": "#bec8d2",
+                    "surface-variant": "#e4e2e2",
+                    "on-tertiary": "#ffffff",
+                    "on-surface-variant": "#3e4850",
+                    "on-secondary-fixed": "#001e2c",
+                    "on-tertiary-fixed": "#121f00",
+                    "inverse-primary": "#8ccdff",
+                    "on-secondary-fixed-variant": "#004c69",
+                    "inverse-on-surface": "#f2f0f0",
+                    "primary-fixed": "#cae6ff",
+                    "error-container": "#ffdad6",
+                    "primary-container": "#38b6ff",
+                    "surface-container-low": "#f5f3f3",
+                    "background": "#fbf9f8",
+                    "primary": "#006493",
+                    "surface-container-high": "#e9e8e7",
+                    "on-primary-fixed": "#001e30",
+                    "tertiary": "#466800",
+                    "on-error": "#ffffff",
+                    "on-secondary-container": "#004b67",
+                    "outline": "#6e7882",
+                    "surface-bright": "#fbf9f8",
+                    "on-tertiary-fixed-variant": "#344e00",
+                    "on-secondary": "#ffffff",
+                    "surface-container": "#efeded",
+                    "surface": "#fbf9f8",
+                    "on-primary-fixed-variant": "#004b70"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Work Sans"],
+                    "label": ["Work Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body { font-family: 'Work Sans', sans-serif; }
+        h1, h2, h3, h4 { font-family: 'Plus Jakarta Sans', sans-serif; }
+    </style>
+</head>
+<body class="bg-background text-on-background selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl shadow-sm">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<a href="index.html" class="text-xl font-extrabold tracking-tighter text-sky-900 font-headline hover:opacity-80 transition-opacity">
+                Junk Away We Go
+            </a>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-headline font-medium text-sm tracking-tight text-slate-600 hover:text-sky-700 transition-colors" href="index.html">Home</a>
+<a class="font-headline font-medium text-sm tracking-tight text-slate-600 hover:text-sky-700 transition-colors" href="about.html">About Us</a>
+<a class="font-headline font-medium text-sm tracking-tight text-slate-600 hover:text-sky-700 transition-colors" href="services.html">Services</a>
+<a class="font-headline font-medium text-sm tracking-tight text-sky-700 font-bold border-b-2 border-sky-700 pb-1" href="pricing.html">Pricing</a>
+<a class="font-headline font-medium text-sm tracking-tight text-slate-600 hover:text-sky-700 transition-colors" href="contact.html">Contact Us</a>
+<a class="font-headline font-medium text-sm tracking-tight text-slate-600 hover:text-sky-700 transition-colors" href="blog.html">Blogs</a>
+</div>
+<div class="flex items-center gap-4">
+<a class="hidden sm:block text-sky-700 font-headline font-bold text-sm bg-slate-100 hover:bg-slate-200 px-4 py-2 rounded-full transition-all" href="tel:7604733973">760-473-3973</a>
+<button id="menu-toggle" class="md:hidden p-2 hover:bg-slate-100 rounded-full transition-all text-on-surface">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="hidden md:hidden px-8 pb-6 space-y-4 border-t border-outline-variant/20">
+<a class="block font-headline font-medium text-sm text-slate-600 hover:text-sky-700 transition-colors py-2" href="index.html">Home</a>
+<a class="block font-headline font-medium text-sm text-slate-600 hover:text-sky-700 transition-colors py-2" href="about.html">About Us</a>
+<a class="block font-headline font-medium text-sm text-slate-600 hover:text-sky-700 transition-colors py-2" href="services.html">Services</a>
+<a class="block font-headline font-medium text-sm text-sky-700 font-bold py-2" href="pricing.html">Pricing</a>
+<a class="block font-headline font-medium text-sm text-slate-600 hover:text-sky-700 transition-colors py-2" href="contact.html">Contact Us</a>
+<a class="block font-headline font-medium text-sm text-slate-600 hover:text-sky-700 transition-colors py-2" href="blog.html">Blogs</a>
+<a class="block text-sky-700 font-headline font-bold text-sm py-2" href="tel:7604733973">760-473-3973</a>
+</div>
+</nav>
+<script>
+document.getElementById('menu-toggle').addEventListener('click', function() {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('hidden');
+    this.querySelector('span').textContent = menu.classList.contains('hidden') ? 'menu' : 'close';
+});
+</script>
+<main class="pt-32 pb-24">
+<!-- Hero Section -->
+<section class="max-w-7xl mx-auto px-8 mb-20">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="relative z-10">
+<span class="inline-flex items-center px-3 py-1 rounded-sm bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-widest mb-6">Transparent Rates</span>
+<h1 class="text-5xl md:text-7xl font-extrabold text-on-surface leading-[1.1] tracking-tight mb-8">
+                        The Luxury of <span class="text-primary italic">Empty Space.</span>
+</h1>
+<p class="text-lg text-on-surface-variant max-w-xl mb-10 leading-relaxed">
+                        We don't do hidden fees. Our pricing is based on how much space your junk takes up in our specialized 14-cubic yard dump trucks. Professional, efficient, and surprisingly affordable.
+                    </p>
+</div>
+<div class="relative h-[500px] rounded-xl overflow-hidden shadow-2xl">
+<img alt="Clean warehouse space" class="absolute inset-0 w-full h-full object-cover" data-alt="Modern architectural interior of a completely empty white industrial loft with sunlight streaming through large windows, symbolizing reclaimed space." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlCutbaQuLZecIeYkwjWb2-UpVsFMUFaRBcTjnawIF_jQJ77BzR4sK-c19nscDwJk8dnV1TgTmEEYlSxylCFBDp6gEp21_WGXYrJavyiXetl72xizBY6ms4W1l13QqQoC9PCof1Huy-qgEk6SzW5KbFuaC7AhRNwCMXp9N-Q4B3zzfAf5l-2TaQP9m7hT2koZ7rkE-MAh9uRW54OYY0JgKvhqfdA2RS-G5Xy5KePPwI8dQdjEGlwagIz6mbg2U_Qlz8bxxnNkAVEs"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
+</div>
+</div>
+</section>
+<!-- Pricing Cards Section -->
+<section class="bg-surface-container-low py-24">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center mb-16">
+<h2 class="text-3xl font-bold mb-4">Choose Your Load Size</h2>
+<p class="text-on-surface-variant">Standard pricing for residential and commercial removal.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Quarter Load -->
+<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col items-start transition-all hover:-translate-y-2">
+<div class="w-12 h-12 bg-primary-container/20 rounded-lg flex items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'opsz' 40;">view_quilt</span>
+</div>
+<h3 class="text-2xl font-bold mb-2">Quarter Load</h3>
+<p class="text-on-surface-variant text-sm mb-6 flex-grow">Perfect for small items, single appliances, or about 2-3 pieces of furniture. Approximately 3.5 cubic yards.</p>
+<div class="w-full h-px bg-surface-container-highest mb-6"></div>
+<div class="flex items-baseline gap-1 mb-8">
+<span class="text-4xl font-black text-on-surface">$150</span>
+<span class="text-on-surface-variant text-sm">starting at</span>
+</div>
+<a href="contact.html" class="block w-full py-4 bg-primary text-on-primary rounded-full font-bold text-sm uppercase tracking-wider hover:brightness-110 active:scale-95 transition-all text-center">Book This Size</a>
+</div>
+<!-- Half Load -->
+<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col items-start transition-all hover:-translate-y-2 border-2 border-primary/10 relative overflow-hidden">
+<div class="absolute top-0 right-0 bg-tertiary px-4 py-1 text-[10px] font-black text-white uppercase tracking-widest rounded-bl-lg">Most Popular</div>
+<div class="w-12 h-12 bg-primary-container/20 rounded-lg flex items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'opsz' 40;">view_module</span>
+</div>
+<h3 class="text-2xl font-bold mb-2">Half Load</h3>
+<p class="text-on-surface-variant text-sm mb-6 flex-grow">Ideal for clearing out a small garage, a bedroom, or multiple large appliances. Approximately 7 cubic yards.</p>
+<div class="w-full h-px bg-surface-container-highest mb-6"></div>
+<div class="flex items-baseline gap-1 mb-8">
+<span class="text-4xl font-black text-on-surface">$325</span>
+<span class="text-on-surface-variant text-sm">starting at</span>
+</div>
+<a href="contact.html" class="block w-full py-4 bg-primary text-on-primary rounded-full font-bold text-sm uppercase tracking-wider hover:brightness-110 active:scale-95 transition-all text-center">Book This Size</a>
+</div>
+<!-- Full Load -->
+<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col items-start transition-all hover:-translate-y-2">
+<div class="w-12 h-12 bg-primary-container/20 rounded-lg flex items-center justify-center mb-6 text-primary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'opsz' 40;">local_shipping</span>
+</div>
+<h3 class="text-2xl font-bold mb-2">Full Load</h3>
+<p class="text-on-surface-variant text-sm mb-6 flex-grow">The whole truck. Best for major cleanouts, construction debris, or entire apartments. Approximately 14 cubic yards.</p>
+<div class="w-full h-px bg-surface-container-highest mb-6"></div>
+<div class="flex items-baseline gap-1 mb-8">
+<span class="text-4xl font-black text-on-surface">$550</span>
+<span class="text-on-surface-variant text-sm">starting at</span>
+</div>
+<a href="contact.html" class="block w-full py-4 bg-primary text-on-primary rounded-full font-bold text-sm uppercase tracking-wider hover:brightness-110 active:scale-95 transition-all text-center">Book This Size</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Demolition Teaser Section (Asymmetric) -->
+<section class="max-w-7xl mx-auto px-8 py-24 grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+<div class="md:col-span-7 bg-surface-container p-12 rounded-2xl">
+<h2 class="text-3xl font-bold mb-6">Demolition Services</h2>
+<p class="text-lg text-on-surface-variant mb-8 leading-relaxed">
+                    Need more than just a pickup? We handle light demolition including sheds, decks, hot tubs, and interior walls. Because demolition requires specialized equipment and labor, these projects are quoted on a per-job basis.
+                </p>
+<div class="flex flex-wrap gap-4">
+<span class="px-4 py-2 bg-secondary-container/20 text-on-secondary-container rounded-sm text-xs font-bold">Shed Removal</span>
+<span class="px-4 py-2 bg-secondary-container/20 text-on-secondary-container rounded-sm text-xs font-bold">Deck Deconstruction</span>
+<span class="px-4 py-2 bg-secondary-container/20 text-on-secondary-container rounded-sm text-xs font-bold">Interior Gutting</span>
+</div>
+</div>
+<div class="md:col-span-5 h-full min-h-[300px] relative rounded-2xl overflow-hidden">
+<img alt="Construction site" class="absolute inset-0 w-full h-full object-cover" data-alt="Professional demolition worker in safety gear using a sledgehammer to dismantle a wooden structure in a sunlit outdoor area." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvC_AlGrihLRYE4i1RyJPBWhsMB_FVmxPEFa9tyJc9rqbE6OwgCuEJVkknkv9oW8MsZwkZLN3jAJmejdxa3q12PXBvjVNMUQu63yV36J19q3Bfs7_F1lQnNSXtlofXuo3YXwPJCX_9Gu1heP6SEckQi5F3X1cG9G8c0gukvVc2NptCiEMc2DPOpQGA6FBgNr7xzRN4hT6NzWxIGiIHRUY6rHEFuWzrsgdH67EHIcGrZU3MHbt4jJuKps7lR1WumebGMl0FW5NrCEg"/>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="max-w-5xl mx-auto px-8 mb-24">
+<div class="bg-inverse-surface text-inverse-on-surface rounded-3xl p-12 md:p-20 text-center relative overflow-hidden">
+<div class="absolute top-0 left-0 w-64 h-64 bg-primary/10 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl"></div>
+<h2 class="text-4xl md:text-5xl font-black mb-8 relative z-10">Ready to reclaim your space?</h2>
+<p class="text-xl text-slate-300 mb-12 max-w-2xl mx-auto relative z-10">
+                    Get a guaranteed quote today. No surprises, just a clean space and a fresh start.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center relative z-10">
+<a class="px-10 py-5 bg-tertiary text-on-tertiary rounded-full font-black text-lg uppercase tracking-widest hover:scale-105 transition-transform" href="contact.html">Book Your Free Estimate</a>
+<a class="px-10 py-5 border-2 border-white/20 text-white rounded-full font-bold text-lg hover:bg-white/10 transition-colors" href="tel:7604733973">Call 760-473-3973</a>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full py-16 px-8 mt-auto bg-slate-950">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-7xl mx-auto">
+<div>
+<a href="index.html" class="text-2xl font-black text-white mb-4 block font-headline hover:opacity-80 transition-opacity">Junk Away We Go</a>
+<p class="font-body text-sm leading-relaxed text-slate-300 mb-6">
+                    Professional demolition and junk removal specialists dedicated to reclaiming your space with eco-friendly efficiency and family-owned integrity.
+                </p>
+<div class="flex gap-4">
+<div class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center text-sky-400 hover:border-sky-400 hover:bg-sky-400/10 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-lg">public</span>
+</div>
+<div class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center text-sky-400 hover:border-sky-400 hover:bg-sky-400/10 transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-lg">share</span>
+</div>
+</div>
+</div>
+<div>
+<h4 class="text-white font-semibold mb-6 uppercase tracking-widest text-xs">Navigation</h4>
+<ul class="space-y-3 font-body text-sm">
+<li><a class="text-slate-400 hover:text-sky-400 transition-colors hover:translate-x-1 inline-block transition-transform duration-200" href="index.html">Home</a></li>
+<li><a class="text-slate-400 hover:text-sky-400 transition-colors hover:translate-x-1 inline-block transition-transform duration-200" href="about.html">About Us</a></li>
+<li><a class="text-slate-400 hover:text-sky-400 transition-colors hover:translate-x-1 inline-block transition-transform duration-200" href="services.html">Services</a></li>
+<li><a class="text-white font-semibold hover:translate-x-1 inline-block transition-transform duration-200" href="pricing.html">Pricing</a></li>
+<li><a class="text-slate-400 hover:text-sky-400 transition-colors hover:translate-x-1 inline-block transition-transform duration-200" href="contact.html">Contact Us</a></li>
+<li><a class="text-slate-400 hover:text-sky-400 transition-colors hover:translate-x-1 inline-block transition-transform duration-200" href="blog.html">Blogs</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-white font-semibold mb-6 uppercase tracking-widest text-xs">Get in Touch</h4>
+<ul class="space-y-4 font-body text-sm text-slate-300">
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-sky-400 text-lg">call</span>
+<a class="hover:text-sky-400 transition-colors" href="tel:7604733973">760-473-3973</a>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-sky-400 text-lg">mail</span>
+<a class="hover:text-sky-400 transition-colors" href="mailto:Junkawaywego@gmail.com">Junkawaywego@gmail.com</a>
+</li>
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-sky-400 text-lg mt-0.5">location_on</span>
+<span>13507 Calle Colina,<br/>Poway, CA 92064</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-body text-xs text-slate-500">
+                © 2025 Junk Away We Go Demolition Inc. All rights reserved.
+            </p>
+<div class="flex gap-8 text-xs text-slate-600">
+<a class="hover:text-slate-400 transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-slate-400 transition-colors" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+</body></html>
