@@ -9,12 +9,9 @@ Static marketing website for **Junk Away We Go Demolition Inc.**, a junk removal
 ## Running Locally
 
 ```bash
-open index.html
-# or use any static server:
-python3 -m http.server 8000
+npm install      # one-time setup
+npm run dev      # starts live-server on http://localhost:3000 with auto-reload
 ```
-
-No npm, no dependencies, no build step.
 
 ## Architecture
 
@@ -37,7 +34,7 @@ The Tailwind config is **duplicated inline in every HTML file's `<head>`** via a
 
 ### Shared Components (copy-pasted, not templated)
 The nav and footer are **identical markup copy-pasted across all 6 pages** — there is no component system or includes. The only difference per page is which nav/footer link gets the "active" style:
-- **Nav active:** `text-sky-700 font-bold border-b-2 border-sky-700 pb-1` (desktop), `text-sky-700 font-bold` (mobile)
+- **Nav active:** `text-sky-700 font-bold` (desktop and mobile)
 - **Footer active:** `text-white font-semibold` (instead of `text-slate-400`)
 
 When changing the nav or footer, apply the same edit to all 6 files.
