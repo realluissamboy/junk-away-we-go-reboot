@@ -1,10 +1,11 @@
 # Open Questions
 
+## Ask Matt on Monday 4/20
+
+- [ ] **Formspree endpoint for the contact form.** Matt creates a free Formspree account at formspree.io, makes a new form with his Junkawaywego@gmail.com as the notification email, verifies, and sends Luis the 8-char code after `/f/` in the URL. Luis drops that into `contact.html` replacing `xplaceholder`. Until then the contact form will not deliver submissions to Matt.
+
 ## Blocking (work cannot proceed until resolved)
 
-- [ ] **Matt's filled-in pricing form.** Where do his answers live? (Google Form responses, separate doc, text thread?) The xlsx files in the Obsidian folder are blank templates.
-- [ ] **Blog #1 angle.** Pricing is the subject. Three candidate angles from the intake form: (a) "How we price junk removal in San Diego" transparency piece, (b) "What junk removal actually costs in 2026" cost-guide (targets 2,400/mo search volume from the roadmap), (c) "How Junk Away We Go prices jobs vs 1-800-GOT-JUNK" comparison. Pick one or let the leads propose.
-- [ ] **Where the blog lives.** `blog.html` is a static mockup with no post pages. Three options: standalone HTML in the repo, inline on `blog.html`, or build a real post template. Option three likely misses Monday.
 - [ ] **Brand name on client-facing work.** Samboy Digital vs Avenida Web Designs. Existing docs Matt has go out as Samboy Digital. What gets used going forward.
 
 ## Nice to have (work can proceed, answer sharpens the result)
