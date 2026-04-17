@@ -2,7 +2,7 @@
   "name": "junk-away-we-go-reboot",
   "private": true,
   "scripts": {
-    "dev": "live-server --port=3000"
+    "dev": "live-server"
   },
   "devDependencies": {
     "live-server": "^1.2.2"

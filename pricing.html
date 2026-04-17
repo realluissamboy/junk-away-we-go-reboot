@@ -135,7 +135,7 @@ document.getElementById('menu-toggle').addEventListener('click', function() {
                         The Luxury of <span class="text-primary italic">Empty Space.</span>
 </h1>
 <p class="text-lg text-on-surface-variant max-w-xl mb-10 leading-relaxed">
-                        We don't do hidden fees. Our pricing is based on how much space your junk takes up in our specialized 14-cubic yard dump trucks. Professional, efficient, and surprisingly affordable.
+                        We post the numbers. We price by how much space your stuff takes up in our dump trailer. Labor, dump fees, and taxes are already in the price. No truck roll fee, no fuel surcharge, no surprises on the invoice.
                     </p>
 </div>
 <div class="relative h-[500px] rounded-xl overflow-hidden shadow-2xl">
@@ -148,54 +148,140 @@ document.getElementById('menu-toggle').addEventListener('click', function() {
 <section class="bg-surface-container-low py-24">
 <div class="max-w-7xl mx-auto px-8">
 <div class="text-center mb-16">
-<h2 class="text-3xl font-bold mb-4">Choose Your Load Size</h2>
-<p class="text-on-surface-variant">Standard pricing for residential and commercial removal.</p>
+<h2 class="text-3xl md:text-4xl font-bold mb-4">Choose your load size</h2>
+<p class="text-on-surface-variant">We price by how much space your stuff takes up. Our full trailer is 12 ft long, 8 ft wide, 5 ft tall.</p>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+<!-- Minimum Load -->
+<div class="bg-surface-container-lowest p-6 rounded-xl flex flex-col items-start transition-all hover:-translate-y-1">
+<div class="w-10 h-10 bg-primary-container/20 rounded-lg flex items-center justify-center mb-4 text-primary">
+<span class="material-symbols-outlined text-lg">inventory_2</span>
+</div>
+<h3 class="text-xl font-bold mb-2">Minimum</h3>
+<p class="text-on-surface-variant text-xs mb-4 flex-grow">A single item or two. Couch, mattress, old fridge.</p>
+<div class="w-full h-px bg-surface-container-highest mb-4"></div>
+<div class="flex items-baseline gap-1 mb-5">
+<span class="text-3xl font-black text-on-surface">$125</span>
+<span class="text-on-surface-variant text-xs">starts at</span>
+</div>
+<a href="contact.html" class="block w-full py-3 bg-surface-container-high text-on-surface rounded-full font-bold text-xs uppercase tracking-wider hover:bg-surface-container-highest active:scale-95 transition-all text-center">Book This</a>
+</div>
 <!-- Quarter Load -->
-<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col items-start transition-all hover:-translate-y-2">
-<div class="w-12 h-12 bg-primary-container/20 rounded-lg flex items-center justify-center mb-6 text-primary">
-<span class="material-symbols-outlined" style="font-variation-settings: 'opsz' 40;">view_quilt</span>
+<div class="bg-surface-container-lowest p-6 rounded-xl flex flex-col items-start transition-all hover:-translate-y-1">
+<div class="w-10 h-10 bg-primary-container/20 rounded-lg flex items-center justify-center mb-4 text-primary">
+<span class="material-symbols-outlined text-lg">view_quilt</span>
 </div>
-<h3 class="text-2xl font-bold mb-2">Quarter Load</h3>
-<p class="text-on-surface-variant text-sm mb-6 flex-grow">Perfect for small items, single appliances, or about 2-3 pieces of furniture. Approximately 3.5 cubic yards.</p>
-<div class="w-full h-px bg-surface-container-highest mb-6"></div>
-<div class="flex items-baseline gap-1 mb-8">
-<span class="text-4xl font-black text-on-surface">$150</span>
-<span class="text-on-surface-variant text-sm">starting at</span>
+<h3 class="text-xl font-bold mb-2">1/4 Load</h3>
+<p class="text-on-surface-variant text-xs mb-4 flex-grow">A few pieces of furniture or a small pile in the garage.</p>
+<div class="w-full h-px bg-surface-container-highest mb-4"></div>
+<div class="flex items-baseline gap-1 mb-5">
+<span class="text-3xl font-black text-on-surface">$175</span>
+<span class="text-on-surface-variant text-xs">starts at</span>
 </div>
-<a href="contact.html" class="block w-full py-4 bg-primary text-on-primary rounded-full font-bold text-sm uppercase tracking-wider hover:brightness-110 active:scale-95 transition-all text-center">Book This Size</a>
+<a href="contact.html" class="block w-full py-3 bg-surface-container-high text-on-surface rounded-full font-bold text-xs uppercase tracking-wider hover:bg-surface-container-highest active:scale-95 transition-all text-center">Book This</a>
 </div>
-<!-- Half Load -->
-<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col items-start transition-all hover:-translate-y-2 border-2 border-primary/10 relative overflow-hidden">
-<div class="absolute top-0 right-0 bg-tertiary px-4 py-1 text-[10px] font-black text-white uppercase tracking-widest rounded-bl-lg">Most Popular</div>
-<div class="w-12 h-12 bg-primary-container/20 rounded-lg flex items-center justify-center mb-6 text-primary">
-<span class="material-symbols-outlined" style="font-variation-settings: 'opsz' 40;">view_module</span>
+<!-- Half Load - Most Popular -->
+<div class="bg-surface-container-lowest p-6 rounded-xl flex flex-col items-start transition-all hover:-translate-y-1 border-2 border-primary/20 relative overflow-hidden shadow-lg">
+<div class="absolute top-0 right-0 bg-tertiary px-3 py-1 text-[10px] font-black text-white uppercase tracking-widest rounded-bl-lg">Most Popular</div>
+<div class="w-10 h-10 bg-primary-container/20 rounded-lg flex items-center justify-center mb-4 text-primary">
+<span class="material-symbols-outlined text-lg">view_module</span>
 </div>
-<h3 class="text-2xl font-bold mb-2">Half Load</h3>
-<p class="text-on-surface-variant text-sm mb-6 flex-grow">Ideal for clearing out a small garage, a bedroom, or multiple large appliances. Approximately 7 cubic yards.</p>
-<div class="w-full h-px bg-surface-container-highest mb-6"></div>
-<div class="flex items-baseline gap-1 mb-8">
-<span class="text-4xl font-black text-on-surface">$325</span>
-<span class="text-on-surface-variant text-sm">starting at</span>
+<h3 class="text-xl font-bold mb-2">1/2 Load</h3>
+<p class="text-on-surface-variant text-xs mb-4 flex-grow">A garage cleanout, a bedroom, or a few large appliances.</p>
+<div class="w-full h-px bg-surface-container-highest mb-4"></div>
+<div class="flex items-baseline gap-1 mb-5">
+<span class="text-3xl font-black text-on-surface">$350</span>
+<span class="text-on-surface-variant text-xs">starts at</span>
 </div>
-<a href="contact.html" class="block w-full py-4 bg-primary text-on-primary rounded-full font-bold text-sm uppercase tracking-wider hover:brightness-110 active:scale-95 transition-all text-center">Book This Size</a>
+<a href="contact.html" class="block w-full py-3 bg-primary text-on-primary rounded-full font-bold text-xs uppercase tracking-wider hover:brightness-110 active:scale-95 transition-all text-center">Book This</a>
+</div>
+<!-- Three Quarter Load -->
+<div class="bg-surface-container-lowest p-6 rounded-xl flex flex-col items-start transition-all hover:-translate-y-1">
+<div class="w-10 h-10 bg-primary-container/20 rounded-lg flex items-center justify-center mb-4 text-primary">
+<span class="material-symbols-outlined text-lg">dashboard</span>
+</div>
+<h3 class="text-xl font-bold mb-2">3/4 Load</h3>
+<p class="text-on-surface-variant text-xs mb-4 flex-grow">A full garage, a small apartment, or a shed teardown.</p>
+<div class="w-full h-px bg-surface-container-highest mb-4"></div>
+<div class="flex items-baseline gap-1 mb-5">
+<span class="text-3xl font-black text-on-surface">$525</span>
+<span class="text-on-surface-variant text-xs">starts at</span>
+</div>
+<a href="contact.html" class="block w-full py-3 bg-surface-container-high text-on-surface rounded-full font-bold text-xs uppercase tracking-wider hover:bg-surface-container-highest active:scale-95 transition-all text-center">Book This</a>
 </div>
 <!-- Full Load -->
-<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col items-start transition-all hover:-translate-y-2">
-<div class="w-12 h-12 bg-primary-container/20 rounded-lg flex items-center justify-center mb-6 text-primary">
-<span class="material-symbols-outlined" style="font-variation-settings: 'opsz' 40;">local_shipping</span>
+<div class="bg-surface-container-lowest p-6 rounded-xl flex flex-col items-start transition-all hover:-translate-y-1">
+<div class="w-10 h-10 bg-primary-container/20 rounded-lg flex items-center justify-center mb-4 text-primary">
+<span class="material-symbols-outlined text-lg">local_shipping</span>
 </div>
-<h3 class="text-2xl font-bold mb-2">Full Load</h3>
-<p class="text-on-surface-variant text-sm mb-6 flex-grow">The whole truck. Best for major cleanouts, construction debris, or entire apartments. Approximately 14 cubic yards.</p>
-<div class="w-full h-px bg-surface-container-highest mb-6"></div>
-<div class="flex items-baseline gap-1 mb-8">
-<span class="text-4xl font-black text-on-surface">$550</span>
-<span class="text-on-surface-variant text-sm">starting at</span>
+<h3 class="text-xl font-bold mb-2">Full Load</h3>
+<p class="text-on-surface-variant text-xs mb-4 flex-grow">The whole 12x8x5 trailer. Major cleanouts or construction debris.</p>
+<div class="w-full h-px bg-surface-container-highest mb-4"></div>
+<div class="flex items-baseline gap-1 mb-5">
+<span class="text-3xl font-black text-on-surface">$699</span>
+<span class="text-on-surface-variant text-xs">starts at</span>
 </div>
-<a href="contact.html" class="block w-full py-4 bg-primary text-on-primary rounded-full font-bold text-sm uppercase tracking-wider hover:brightness-110 active:scale-95 transition-all text-center">Book This Size</a>
+<a href="contact.html" class="block w-full py-3 bg-surface-container-high text-on-surface rounded-full font-bold text-xs uppercase tracking-wider hover:bg-surface-container-highest active:scale-95 transition-all text-center">Book This</a>
 </div>
 </div>
+<p class="text-center text-xs text-on-surface-variant mt-8">"Starts at" means exactly that. If your job bumps past a tier, we tell you before we load anything.</p>
+</div>
+</section>
+
+<!-- Transparency Block -->
+<section class="max-w-7xl mx-auto px-8 py-20">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+<div class="bg-surface-container-lowest p-8 rounded-xl border-t-4 border-tertiary">
+<div class="flex items-center gap-3 mb-5">
+<span class="material-symbols-outlined text-tertiary text-3xl">check_circle</span>
+<h3 class="text-xl font-bold text-on-surface">What's included</h3>
+</div>
+<p class="text-on-surface-variant text-sm mb-4">Every tier price already covers:</p>
+<ul class="space-y-3 text-sm">
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-tertiary text-base mt-0.5">done</span><span><strong class="text-on-surface">Labor.</strong> Two guys, the truck, the trailer, the time.</span></li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-tertiary text-base mt-0.5">done</span><span><strong class="text-on-surface">Dump fees.</strong> Most companies add these at the end. We don't.</span></li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-tertiary text-base mt-0.5">done</span><span><strong class="text-on-surface">Taxes.</strong> The quote is the total.</span></li>
+</ul>
+</div>
+
+<div class="bg-surface-container-lowest p-8 rounded-xl border-t-4 border-secondary">
+<div class="flex items-center gap-3 mb-5">
+<span class="material-symbols-outlined text-secondary text-3xl">add_circle</span>
+<h3 class="text-xl font-bold text-on-surface">What bumps the price</h3>
+</div>
+<p class="text-on-surface-variant text-sm mb-4">A few things cost more, and we'll tell you before the job:</p>
+<ul class="space-y-3 text-sm">
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-base mt-0.5">arrow_right</span><span><strong class="text-on-surface">Appliances:</strong> +$30 each (disposal surcharge)</span></li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-base mt-0.5">arrow_right</span><span><strong class="text-on-surface">Tires, construction debris, e-waste:</strong> priced case by case</span></li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-base mt-0.5">arrow_right</span><span><strong class="text-on-surface">Stairs, tight access, disassembly, pianos, hot tubs:</strong> added for real effort</span></li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-secondary text-base mt-0.5">arrow_right</span><span><strong class="text-on-surface">Same-day / rush:</strong> percentage premium, quoted up front</span></li>
+</ul>
+</div>
+
+<div class="bg-surface-container-lowest p-8 rounded-xl border-t-4 border-error">
+<div class="flex items-center gap-3 mb-5">
+<span class="material-symbols-outlined text-error text-3xl">block</span>
+<h3 class="text-xl font-bold text-on-surface">What we don't take</h3>
+</div>
+<p class="text-on-surface-variant text-sm mb-4">We're not set up for hazardous materials in large quantities:</p>
+<ul class="space-y-3 text-sm">
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-error text-base mt-0.5">close</span><span class="text-on-surface">Paint, solvents, household chemicals</span></li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-error text-base mt-0.5">close</span><span class="text-on-surface">Propane tanks, fuel, pesticides</span></li>
+<li class="flex items-start gap-2"><span class="material-symbols-outlined text-error text-base mt-0.5">close</span><span class="text-on-surface">Pressure-treated wood in bulk</span></li>
+</ul>
+<p class="text-on-surface-variant text-xs mt-4">One old can of paint in a garage cleanout is fine. Fifteen cans is a hazmat job, and the county has a free drop-off for that.</p>
+</div>
+
+</div>
+
+<div class="mt-10 bg-surface-container rounded-xl p-8 flex flex-col md:flex-row items-start md:items-center gap-6">
+<span class="material-symbols-outlined text-primary text-4xl">support_agent</span>
+<div class="flex-1">
+<h3 class="text-lg font-bold text-on-surface mb-2">How we quote</h3>
+<p class="text-sm text-on-surface-variant leading-relaxed">Text us a photo, your city, and when you need it gone. Most of the time we quote the tier right there. For complex cleanouts (estate jobs, hoarder situations, full construction tear-outs), we come look in person first. About 15 to 30% of the time the final price lands higher than the text quote, almost always because the pile in person is bigger than the photo. We tell you the new number before we load another thing.</p>
+</div>
+<a href="posts/junk-removal-cost-san-diego.html" class="inline-flex items-center gap-2 text-primary font-bold text-sm whitespace-nowrap hover:gap-4 transition-all">Read the full guide <span class="material-symbols-outlined text-base">arrow_forward</span></a>
 </div>
 </section>
 <!-- Demolition Teaser Section (Asymmetric) -->
@@ -278,7 +364,7 @@ document.getElementById('menu-toggle').addEventListener('click', function() {
 </div>
 <div class="max-w-7xl mx-auto mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
 <p class="font-body text-xs text-slate-500">
-                © 2025 Junk Away We Go Demolition Inc. All rights reserved.
+                © 2026 Junk Away We Go Demolition Inc. All rights reserved.
             </p>
 <div class="flex gap-8 text-xs text-slate-600">
 <a class="hover:text-slate-400 transition-colors" href="#">Privacy Policy</a>
