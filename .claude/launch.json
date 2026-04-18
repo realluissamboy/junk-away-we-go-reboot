@@ -2,9 +2,15 @@
   "version": "0.0.1",
   "configurations": [
     {
-      "name": "Dev Server (live-reload)",
+      "name": "Dev Server (Eleventy + Tailwind)",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
+      "autoPort": true
+    },
+    {
+      "name": "Preview Built Site (_site/)",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "_site", "-l", "3001"],
       "autoPort": true
     }
   ]

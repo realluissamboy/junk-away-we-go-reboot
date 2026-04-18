@@ -1,0 +1,32 @@
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl shadow-sm">
+  <div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+    <a href="/" class="text-xl font-extrabold tracking-tighter text-sky-900 font-headline hover:opacity-80 transition-opacity">
+      Junk Away We Go
+    </a>
+    <div class="hidden lg:flex gap-8 items-center">
+      <a class="{% if navActive == 'home' %}nav-link-active{% else %}nav-link{% endif %}" href="/">Home</a>
+      <a class="{% if navActive == 'about' %}nav-link-active{% else %}nav-link{% endif %}" href="/about.html">About Us</a>
+      <a class="{% if navActive == 'services' %}nav-link-active{% else %}nav-link{% endif %}" href="/services.html">Services</a>
+      <a class="{% if navActive == 'pricing' %}nav-link-active{% else %}nav-link{% endif %}" href="/pricing.html">Pricing</a>
+      <a class="{% if navActive == 'locations' %}nav-link-active{% else %}nav-link{% endif %}" href="/locations/">Areas</a>
+      <a class="{% if navActive == 'contact' %}nav-link-active{% else %}nav-link{% endif %}" href="/contact.html">Contact Us</a>
+      <a class="{% if navActive == 'blog' %}nav-link-active{% else %}nav-link{% endif %}" href="/blog.html">Blogs</a>
+    </div>
+    <div class="flex items-center gap-4">
+      <a class="hidden sm:block text-primary font-headline font-bold text-sm bg-slate-100 hover:bg-slate-200 px-4 py-2 rounded-full transition-all" href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
+      <button id="menu-toggle" aria-label="Toggle navigation menu" aria-controls="mobile-menu" aria-expanded="false" class="lg:hidden p-2 hover:bg-slate-100 rounded-full transition-all text-on-surface">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="hidden lg:hidden px-8 pb-6 space-y-4 border-t border-outline-variant/20">
+    <a class="block py-2 {% if navActive == 'home' %}nav-link-active{% else %}nav-link{% endif %}" href="/">Home</a>
+    <a class="block py-2 {% if navActive == 'about' %}nav-link-active{% else %}nav-link{% endif %}" href="/about.html">About Us</a>
+    <a class="block py-2 {% if navActive == 'services' %}nav-link-active{% else %}nav-link{% endif %}" href="/services.html">Services</a>
+    <a class="block py-2 {% if navActive == 'pricing' %}nav-link-active{% else %}nav-link{% endif %}" href="/pricing.html">Pricing</a>
+    <a class="block py-2 {% if navActive == 'locations' %}nav-link-active{% else %}nav-link{% endif %}" href="/locations/">Areas</a>
+    <a class="block py-2 {% if navActive == 'contact' %}nav-link-active{% else %}nav-link{% endif %}" href="/contact.html">Contact Us</a>
+    <a class="block py-2 {% if navActive == 'blog' %}nav-link-active{% else %}nav-link{% endif %}" href="/blog.html">Blogs</a>
+    <a class="block text-primary font-headline font-bold text-sm py-2" href="tel:{{ site.phoneTel }}">{{ site.phone }}</a>
+  </div>
+</nav>

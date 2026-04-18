@@ -1,0 +1,32 @@
+---
+permalink: /sitemap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {%- for p in collections.all %}
+  {%- if not p.data.noindex and not p.data.eleventyExcludeFromCollections %}
+  {%- set _url = p.url %}
+  {%- set _priority = "0.5" %}
+  {%- set _changefreq = "monthly" %}
+  {%- if _url == "/" %}
+    {%- set _priority = "1.0" %}
+    {%- set _changefreq = "weekly" %}
+  {%- elif "/locations/" in _url or "/services/" in _url %}
+    {%- set _priority = "0.9" %}
+    {%- set _changefreq = "monthly" %}
+  {%- elif "/posts/" in _url %}
+    {%- set _priority = "0.7" %}
+    {%- set _changefreq = "monthly" %}
+  {%- endif %}
+  <url>
+    <loc>{{ site.url }}{{ _url }}</loc>
+    {%- if p.date %}
+    <lastmod>{{ p.date | date }}</lastmod>
+    {%- endif %}
+    <changefreq>{{ _changefreq }}</changefreq>
+    <priority>{{ _priority }}</priority>
+  </url>
+  {%- endif %}
+  {%- endfor %}
+</urlset>

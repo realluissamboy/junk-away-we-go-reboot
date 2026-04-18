@@ -1,0 +1,38 @@
+module.exports = [
+  {
+    slug: "poway",
+    name: "Poway",
+    state: "CA",
+    county: "San Diego County",
+    geo: { lat: 32.9628, lng: -117.0359 },
+    areaServed: ["Poway", "Old Poway", "Green Valley", "Poway Hills", "Lomas Verdes", "Stone Canyon", "Twin Peaks", "Bridlewood", "Heritage Hills"],
+    permalink: "/locations/junk-removal-poway.html",
+  },
+  {
+    slug: "san-diego",
+    name: "San Diego",
+    state: "CA",
+    county: "San Diego County",
+    geo: { lat: 32.7157, lng: -117.1611 },
+    areaServed: ["Downtown", "Hillcrest", "North Park", "South Park", "Kensington", "La Jolla", "Point Loma", "Ocean Beach", "Pacific Beach", "Mission Valley", "Mira Mesa", "Scripps Ranch", "Carmel Valley", "Rancho Peñasquitos", "Clairemont", "Barrio Logan", "Golden Hill", "Bay Park"],
+    permalink: "/locations/junk-removal-san-diego.html",
+  },
+  {
+    slug: "escondido",
+    name: "Escondido",
+    state: "CA",
+    county: "San Diego County",
+    geo: { lat: 33.1192, lng: -117.0864 },
+    areaServed: ["Downtown Escondido", "Old Escondido", "South Escondido", "North Escondido", "Felicita Park area", "Eureka Springs", "Hidden Meadows", "Lake Hodges", "Harmony Grove", "Country Club", "Kit Carson Park area", "East Escondido"],
+    permalink: "/locations/junk-removal-escondido.html",
+  },
+  {
+    slug: "rancho-bernardo",
+    name: "Rancho Bernardo",
+    state: "CA",
+    county: "San Diego County",
+    geo: { lat: 33.0128, lng: -117.0659 },
+    areaServed: ["Rancho Bernardo CC", "Oaks North", "Bernardo Heights", "Seven Oaks", "Eastview", "Westwood", "The Trails", "High Country West", "Del Norte", "Rancho Bernardo Inn", "4S Ranch", "Sabre Springs"],
+    permalink: "/locations/junk-removal-rancho-bernardo.html",
+  },
+];

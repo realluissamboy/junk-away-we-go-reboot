@@ -2,9 +2,25 @@
   "name": "junk-away-we-go-reboot",
   "private": true,
   "scripts": {
-    "dev": "live-server"
+    "dev:legacy": "live-server",
+    "build:css": "tailwindcss -i src/styles/tailwind.css -o _site/assets/styles.css --minify",
+    "build:eleventy": "eleventy",
+    "build": "run-s build:css build:eleventy",
+    "watch:css": "tailwindcss -i src/styles/tailwind.css -o _site/assets/styles.css --watch",
+    "watch:eleventy": "eleventy --serve --port 3000",
+    "dev": "run-p watch:css watch:eleventy"
   },
   "devDependencies": {
-    "live-server": "^1.2.2"
+    "@11ty/eleventy": "^2.0.1",
+    "@tailwindcss/container-queries": "^0.1.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^7.0.2",
+    "html-minifier-terser": "^7.2.0",
+    "live-server": "^1.2.2",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.4"
   }
 }

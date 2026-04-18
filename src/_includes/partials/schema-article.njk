@@ -1,0 +1,22 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ title }}",
+  "description": "{{ description }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "datePublished": "{{ articleDate or page.date | date }}",
+  "dateModified": "{{ articleDateModified or articleDate or page.date | date }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ articleAuthor or 'Matt Geiss' }}",
+    "url": "{{ site.url }}/authors/matt-geiss.html"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.fullName }}",
+    "url": "{{ site.url }}"
+  },
+  "image": "{{ ogImage or (site.url + '/assets/og-default.png') }}"
+}
+</script>
