@@ -12,7 +12,7 @@ module.exports = [
     slug: "hot-tub-removal-san-diego",
     name: "Hot Tub & Spa Removal",
     permalink: "/services/hot-tub-removal-san-diego.html",
-    shortDescription: "Full-service hot tub and spa removal. We drain, disconnect, cut apart, haul, and clean up. Licensed demolition contractor.",
+    shortDescription: "Full-service hot tub and spa removal. We drain, disconnect, cut apart, haul, and clean up. Light demolition available.",
     areaServed: ["San Diego", "Poway", "Escondido", "Oceanside", "San Marcos", "Ramona", "Rancho Bernardo", "Carlsbad", "Vista"],
     startingPrice: "300",
     priceCurrency: "USD",

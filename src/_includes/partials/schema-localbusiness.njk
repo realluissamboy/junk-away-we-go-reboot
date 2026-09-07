@@ -9,7 +9,6 @@
   "priceRange": "{{ site.priceRange }}",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "{{ site.address.street }}",
     "addressLocality": "{{ site.address.city }}",
     "addressRegion": "{{ site.address.state }}",
     "postalCode": "{{ site.address.zip }}",
@@ -25,7 +24,6 @@
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "18:00" },
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "08:00", "closes": "15:00" }
   ],
-  "sameAs": {{ site.sameAs | dump }},
-  "identifier": { "@type": "PropertyValue", "propertyID": "CA License", "value": "1128050" }
+  "sameAs": {{ site.sameAs | dump | safe }}
 }
 </script>

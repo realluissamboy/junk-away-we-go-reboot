@@ -1,27 +1,15 @@
-# Junk Away We Go Demolition Inc.
+# Canyon Coast Junk Removal
 
-> Family-owned junk removal and light demolition in Poway and San Diego County. Transparent load-tier pricing with labor, dump fees, and taxes included. Owner: Matt Geiss. CA License #1128050.
+> Fictional San Diego junk-removal demo. The domain, phone number, email, team identity, prices, and operational claims are placeholders.
 
 ## Company
 
-- Name: Junk Away We Go Demolition Inc.
-- Owner: Matt Geiss
-- Address: 13507 Calle Colina, Poway, CA 92064
-- Phone: 760-473-3973
-- Email: Junkawaywego@gmail.com
-- License: CA #1128050
-- Hours: Monday through Saturday, 7:00 AM to 7:00 PM. Closed Sunday.
-- Service area: Poway, San Diego, Escondido, Oceanside, San Marcos, Ramona, Rancho Bernardo, Carlsbad, Vista
-
-## Social and review profiles
-
-- Yelp: https://www.yelp.com/biz/junk-away-we-go-poway
-- Angi: https://www.angi.com/companylist/us/ca/poway/junk-away-we-go-demolition-reviews-1.htm
-- BuildZoom: https://www.buildzoom.com/contractor/junk-away-we-go-demolition
-- Facebook: https://www.facebook.com/JAWGdemolition
-- Instagram: https://www.instagram.com/junkawaywego/
-- TikTok: https://www.tiktok.com/@junkawaywego
-- YouTube: https://www.youtube.com/@JunkAwayWeGo
+- Name: Canyon Coast Junk Removal
+- Status: Fictional demo business
+- Location concept: San Diego County, California
+- Domain: canyoncoastjunk.example (reserved example domain)
+- Phone: 619-555-0147 (fictional 555 number)
+- Email: hello@canyoncoastjunk.example
 
 ## Services
 
@@ -55,13 +43,13 @@ Every price includes labor, dump fees, and taxes. No truck roll fee. No hidden s
 
 ## Key pages
 
-- [Homepage](https://junkawaywego.com/): Overview of services and service area.
-- [About](https://junkawaywego.com/about.html): About Matt Geiss and Junk Away We Go.
-- [Services](https://junkawaywego.com/services.html): Full service list with details.
-- [Pricing](https://junkawaywego.com/pricing.html): All five load tiers with what's included and what bumps the price.
-- [Contact](https://junkawaywego.com/contact.html): Contact form and direct phone.
+- [Homepage](https://canyoncoastjunk.example/): Overview of services and service area.
+- [About](https://canyoncoastjunk.example/about.html): About Canyon Coast Team and Canyon Coast Junk Removal.
+- [Services](https://canyoncoastjunk.example/services.html): Full service list with details.
+- [Pricing](https://canyoncoastjunk.example/pricing.html): All five load tiers with what's included and what bumps the price.
+- [Contact](https://canyoncoastjunk.example/contact.html): Contact form and direct phone.
 
 ## Blog posts
 
-- [How much does junk removal cost in San Diego?](https://junkawaywego.com/posts/junk-removal-cost-san-diego.html): Full 2026 pricing guide with tier breakdown and surcharges.
-- [Junk Away We Go vs. 1-800-GOT-JUNK: what actually differs](https://junkawaywego.com/posts/junk-away-vs-1800-got-junk.html): Honest comparison of pricing model, turnaround, and service.
+- [How much does junk removal cost in San Diego?](https://canyoncoastjunk.example/posts/junk-removal-cost-san-diego.html): Full 2026 pricing guide with tier breakdown and surcharges.
+- [Canyon Coast Junk Removal vs. 1-800-GOT-JUNK: what actually differs](https://canyoncoastjunk.example/posts/local-vs-national-junk-removal.html): Honest comparison of pricing model, turnaround, and service.

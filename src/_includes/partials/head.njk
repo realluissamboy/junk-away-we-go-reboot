@@ -1,9 +1,9 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>{{ title }} | {{ site.name }}</title>
-<meta name="description" content="{{ description or 'Family-owned junk removal and light demolition in Poway and San Diego County. Posted load-tier pricing from $125, dump fees and taxes included. CA Lic #1128050.' }}"/>
+<meta name="description" content="{{ description or 'Local junk removal and light demolition serving San Diego County with straightforward load-tier pricing.' }}"/>
+<meta name="robots" content="noindex, nofollow"/>
 <link rel="canonical" href="{{ site.url }}{{ page.url }}"/>
-{% if noindex %}<meta name="robots" content="noindex, nofollow"/>{% endif %}
 
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -15,10 +15,10 @@
 <meta property="og:type" content="{{ ogType or 'website' }}"/>
 <meta property="og:site_name" content="{{ site.name }}"/>
 <meta property="og:title" content="{{ ogTitle or title }} | {{ site.name }}"/>
-<meta property="og:description" content="{{ ogDescription or description or 'Family-owned junk removal and light demolition in Poway and San Diego County.' }}"/>
+<meta property="og:description" content="{{ ogDescription or description or 'Local junk removal and light demolition serving San Diego County.' }}"/>
 <meta property="og:url" content="{{ site.url }}{{ page.url }}"/>
 <meta property="og:image" content="{{ ogImage or (site.url + '/assets/og-default.png') }}"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:title" content="{{ ogTitle or title }} | {{ site.name }}"/>
-<meta name="twitter:description" content="{{ ogDescription or description or 'Family-owned junk removal and light demolition in Poway and San Diego County.' }}"/>
+<meta name="twitter:description" content="{{ ogDescription or description or 'Local junk removal and light demolition serving San Diego County.' }}"/>
 <meta name="twitter:image" content="{{ ogImage or (site.url + '/assets/og-default.png') }}"/>

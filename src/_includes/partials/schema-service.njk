@@ -9,7 +9,7 @@
     "url": "{{ site.url }}/",
     "telephone": "+1-{{ site.phone }}"
   },
-  "areaServed": {{ serviceAreaServed | dump }},
+  "areaServed": {{ serviceAreaServed | dump | safe }},
   "offers": {
     "@type": "Offer",
     "priceCurrency": "{{ servicePriceCurrency or 'USD' }}",
